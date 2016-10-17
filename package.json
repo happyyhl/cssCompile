@@ -1,0 +1,26 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yhl",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.7.3",
+    "jshint": "^2.9.3",
+    "postcss-cli": "^2.6.0",
+    "postcss-partial-import": "^2.0.0",
+    "postcss-scss": "^0.3.1",
+    "precss": "^1.4.0",
+    "webpack": "^1.13.2"
+  }
+}
