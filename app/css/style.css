@@ -1,0 +1,40 @@
+
+body{
+      .css{
+      display: inline-block;
+    }
+    .csss{
+      display: block;
+    }
+  }
+div {
+  span{
+    color: #ccc;
+  }
+  em{
+    color:#111;
+  }
+}
+  
+/* Testing autoprefixer */
+
+.autoprefixer {
+  display: flex;
+}
+
+/* Testing cssnext */
+
+.cssnext {
+  background: color(red alpha(-10%));
+}
+
+/* Testing precss */
+
+.precss {
+  @if 3 < 5 {
+    background: green;
+  }
+  @else {
+    background: blue;
+  }
+}
